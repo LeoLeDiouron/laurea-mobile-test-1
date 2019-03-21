@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>EXPERIENCES</ion-title>
+  </ion-toolbar>
+ </ion-header>
+
+ <ion-content>
+  <ion-list>
+    <ion-list-header>All my experiences in programming, in schools and in companies</ion-list-header>
+    <ion-card *ngFor ="let experience of this.experiences">
+        <ion-card-header>
+          <ion-card-subtitle>{{experience.status}}</ion-card-subtitle>
+          <ion-card-title>{{experience.title}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>{{experience.description}}</ion-card-content>
+      </ion-card>
+  </ion-list>
+</ion-content>

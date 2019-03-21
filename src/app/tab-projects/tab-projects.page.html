@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>PROJECTS</ion-title>
+  </ion-toolbar>
+ </ion-header>
+
+ <ion-content>
+  <ion-list>
+   <ion-list-header>Programming personal and school projects</ion-list-header>
+   <ion-card *ngFor ="let project of this.projects">
+     <ion-card-header>
+       <ion-card-subtitle>{{project.status}}</ion-card-subtitle>
+       <ion-card-title>{{project.title}}</ion-card-title>
+     </ion-card-header>
+     <ion-card-content>{{project.description}}</ion-card-content>
+   </ion-card>
+  </ion-list>
+</ion-content>

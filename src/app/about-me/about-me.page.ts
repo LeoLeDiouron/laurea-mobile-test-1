@@ -10,14 +10,13 @@ import { Storage } from '@ionic/storage';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-tabs',
-  templateUrl: 'tabs.page.html',
-  styleUrls: ['tabs.page.scss']
+  selector: 'app-about-me',
+  templateUrl: './about-me.page.html',
+  styleUrls: ['./about-me.page.scss'],
 })
-export class TabsPage implements OnInit {
+export class AboutMePage implements OnInit {
 
-  constructor(private router: Router, private storage: Storage) {
-  }
+  constructor(private router: Router, private storage: Storage) { }
 
   // when the page is initialized, we check if the storage variable "connected" is equals to true
   // if not, refirect to the login page
@@ -32,4 +31,5 @@ export class TabsPage implements OnInit {
       this.router.navigateByUrl('/login');
     });
   }
+
 }
