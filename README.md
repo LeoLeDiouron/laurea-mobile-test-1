@@ -11,12 +11,25 @@ developed with Ionic.
 
 ### Register
 
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/register.PNG)
+
 ### Login
+
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/login.PNG)
 
 ### Menu
 
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/menu.PNG)
+
 ### About Me
+
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/about.PNG)
 
 ### CV - experiences / projects
 
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/experiences.PNG)
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/project.PNG)
+
 ### Contact
+
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/contact.PNG)
