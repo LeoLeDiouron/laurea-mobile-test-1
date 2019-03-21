@@ -30,7 +30,7 @@ export class RegisterPage implements OnInit {
     // and redirect to login page
     if (this.username !== '' && this.password !== '') {
       this.storage.set(this.username, this.password).then(() => {
-        this.router.navigateByUrl('/');
+        this.router.navigateByUrl('/login');
       });
     }
   }

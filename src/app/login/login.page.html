@@ -1,17 +1,17 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>login</ion-title>
+    <ion-title>Léo Le Diouron CV - LOGIN</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card>
-    username : <ion-input [(ngModel)]="username" placeholder="leo"></ion-input>
-    password <ion-input [(ngModel)]="password" type="password"></ion-input>
+    <ion-label>username :</ion-label> <ion-input [(ngModel)]="username" placeholder="leo"></ion-input>
+    <ion-label>password</ion-label> <ion-input [(ngModel)]="password" type="password"></ion-input>
     <ion-button color="primary" (click) ="login()">Login</ion-button>
   </ion-card>
   <ion-card>
-    <ion-label>Not already registered ? Click Here !</ion-label>
+    <ion-label>Not already registered ?   </ion-label>
     <ion-button color="secondary" (click) ="registerForm()">Register</ion-button>
   </ion-card>
 </ion-content>
