@@ -38,12 +38,16 @@ The page about me is a description of my IT background.
 
 ### CV - experiences / projects
 
-The page CV has to tabs:
+The page CV has 3 tabs:
+* Skills page, with all my programming skills about the Ionic job I'm looking for.
 * Experience page, with my learning cursus and the companies where I worked.
 * Projects page, with some examples of my projects (for school or personnal).
 
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/skills.PNG)
+
 ![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/experiences.PNG)
-![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/project.PNG)
+
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/projects.PNG)
 
 ### Contact
 

@@ -15,6 +15,15 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
+        path: 'tab-skills',
+        children: [
+          {
+            path: '',
+            loadChildren: '../tab-skills/tab-skills.module#TabSkillsModule'
+          }
+        ]
+      },
+      {
         path: 'tab-experience',
         children: [
           {
@@ -34,14 +43,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/tab-experience',
+        redirectTo: '/tabs/tab-skills',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab-experience',
+    redirectTo: '/tabs/tab-skills',
     pathMatch: 'full'
   }
 ];
