@@ -1,17 +1,28 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Léo Le Diouron CV - LOGIN</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content style="--background: #fff url('../../assets/login_picture.jpg') no-repeat center center">
+  <div>
+    <ion-list class="list" inset>
+      <!-- username field -->
+      <ion-item class="label">
+        <ion-label color="myWhite" style="font-size:12px" stacked>Username</ion-label>
+        <ion-input [(ngModel)]="username" type="text" placeholder="Enter Username"></ion-input>
+      </ion-item>
 
-<ion-content>
-  <ion-card>
-    <ion-label>username :</ion-label> <ion-input [(ngModel)]="username" placeholder="leo"></ion-input>
-    <ion-label>password</ion-label> <ion-input [(ngModel)]="password" type="password"></ion-input>
-    <ion-button color="primary" (click) ="login()">Login</ion-button>
-  </ion-card>
-  <ion-card>
-    <ion-label>Not already registered ?   </ion-label>
-    <ion-button color="secondary" (click) ="registerForm()">Register</ion-button>
-  </ion-card>
+      <!-- password field -->
+      <ion-item class="label">
+        <ion-label color="myWhite" style="font-size: 12px" stacked>Password</ion-label>
+        <ion-input [(ngModel)]="password" color="myWhite" type="password" placeholder="Enter password"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <!-- login button -->
+  <div text-center>
+    <ion-button class="btnWidth" color="secondary" (click) ="login()">Login</ion-button>
+  </div>
+
+  <!-- sign up button -->
+  <div text-center>
+    <ion-button class="myButton" (click) ="registerForm()">Sign Up</ion-button>
+  </div>
+
 </ion-content>

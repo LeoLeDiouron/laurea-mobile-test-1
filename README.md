@@ -11,6 +11,8 @@ developed with Ionic.
 
 ### Registration and login
 
+![alt text](https://github.com/LeoLeDiouron/laurea-mobile-test-1/blob/master/resources/img/welcome.PNG)
+
 When you start the application, you have to login.
 If it's your first time on the application, click on the button "register" to create a new account.
 Otherwise, fill the form of login with your username and your password.
